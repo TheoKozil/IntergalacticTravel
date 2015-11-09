@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E70ABCB41BF0F87D00642D91 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E70ABCB31BF0F87D00642D91 /* ImageViewController.swift */; };
 		E7FB5B971BEBC3F60034CA5F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB5B961BEBC3F60034CA5F /* AppDelegate.swift */; };
 		E7FB5B991BEBC3F60034CA5F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7FB5B981BEBC3F60034CA5F /* ViewController.swift */; };
 		E7FB5B9C1BEBC3F60034CA5F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E7FB5B9A1BEBC3F60034CA5F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E70ABCB31BF0F87D00642D91 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		E7FB5B931BEBC3F60034CA5F /* IntergalacticTravel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntergalacticTravel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7FB5B961BEBC3F60034CA5F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7FB5B981BEBC3F60034CA5F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				E7FB5B961BEBC3F60034CA5F /* AppDelegate.swift */,
 				E7FB5B981BEBC3F60034CA5F /* ViewController.swift */,
 				E7FB5B9A1BEBC3F60034CA5F /* Main.storyboard */,
+				E70ABCB31BF0F87D00642D91 /* ImageViewController.swift */,
 				E7FB5B9D1BEBC3F60034CA5F /* Assets.xcassets */,
 				E7FB5B9F1BEBC3F60034CA5F /* LaunchScreen.storyboard */,
 				E7FB5BA21BEBC3F60034CA5F /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E7FB5B991BEBC3F60034CA5F /* ViewController.swift in Sources */,
+				E70ABCB41BF0F87D00642D91 /* ImageViewController.swift in Sources */,
 				E7FB5B971BEBC3F60034CA5F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -484,6 +488,7 @@
 				E7FB5BBD1BEBC3F60034CA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7FB5BBE1BEBC3F60034CA5F /* Build configuration list for PBXNativeTarget "IntergalacticTravelTests" */ = {
 			isa = XCConfigurationList;
@@ -492,6 +497,7 @@
 				E7FB5BC01BEBC3F60034CA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7FB5BC11BEBC3F60034CA5F /* Build configuration list for PBXNativeTarget "IntergalacticTravelUITests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +506,7 @@
 				E7FB5BC31BEBC3F60034CA5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
