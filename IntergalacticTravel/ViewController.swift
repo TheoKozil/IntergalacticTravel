@@ -14,11 +14,11 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        let nextViewController = segue.destinationViewController as! ImageViewController
+        nextViewController.isBlueStar = true
+        nextViewController.title = sender?.currentTitle
+        
     }
-
-
+    
 }
-
