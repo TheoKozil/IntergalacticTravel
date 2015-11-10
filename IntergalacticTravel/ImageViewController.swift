@@ -10,6 +10,7 @@ import UIKit
 
 class ImageViewController: UIViewController {
 
+    @IBOutlet weak var starImageView: UIImageView!
     var isBlueStar:Bool?
     
     override func viewDidLoad() {
@@ -17,10 +18,12 @@ class ImageViewController: UIViewController {
         if isBlueStar!
         {
             self.view.backgroundColor = UIColor.blueColor()
+            starImageView.image = UIImage(named: "bluedwarfstar 2")
         }
         else
         {
             self.view.backgroundColor = UIColor.redColor()
+            starImageView.image = UIImage(named: "reddwarfstar 2")
         }
     }
 

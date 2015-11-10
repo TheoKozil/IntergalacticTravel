@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--Intergalactic Travel, Inc-->
@@ -65,8 +66,22 @@
                     <view key="view" contentMode="scaleToFill" id="ltE-40-A7E">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="XCF-tr-3Z5">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XCF-tr-3Z5" firstAttribute="top" secondItem="ltE-40-A7E" secondAttribute="topMargin" id="FHa-T2-SAS"/>
+                            <constraint firstItem="XCF-tr-3Z5" firstAttribute="leading" secondItem="ltE-40-A7E" secondAttribute="leadingMargin" constant="-20" id="diT-bF-Bcl"/>
+                            <constraint firstItem="5ep-8q-XHx" firstAttribute="top" secondItem="XCF-tr-3Z5" secondAttribute="bottom" id="n12-mC-Cqy"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XCF-tr-3Z5" secondAttribute="trailing" constant="-20" id="uKw-ni-bCR"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="starImageView" destination="XCF-tr-3Z5" id="ltQ-k3-O4r"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="TOl-9J-t21" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -92,6 +107,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="4ZJ-NP-N8h"/>
+        <segue reference="kKN-6P-j3i"/>
     </inferredMetricsTieBreakers>
 </document>
